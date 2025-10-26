@@ -1,13 +1,13 @@
-package com.evolvus.asba.alerts;
+package com.ece.ativeMq.broker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AsbaAlertsApplication {
+public class SpringAtiveMqInmemoryBrokerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AsbaAlertsApplication.class, args);
+		SpringApplication.run(SpringAtiveMqInmemoryBrokerApplication.class, args);
 	}
 
 }
